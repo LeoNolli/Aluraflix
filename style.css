@@ -1,0 +1,118 @@
+:root{
+    --white--principal: #ffffff;
+    --gray-sec: #C0C0C0;
+    --blue--btt: #167bf7;
+    --cf: #00030c;
+    --fonte-principal: 'Inter';
+}
+body{
+    background-color: var(--cf);
+    color: var(--white--principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+.principal{
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.container_botton{
+    background-color: var(--blue--btt);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--white--principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+.container_button_sec{
+    background-color: transparent;
+    border: 2px solid var(--white--principal);
+}
+.container_aviso{
+    font-size: 11px;
+    color: var(--gray-sec);
+}
+.container_tit{
+    font-size: 28px;
+    font-weight: 700;
+}
+.container_img{
+    margin: 1em 0 2em 0;
+}
+.container_div{
+    margin: 0 6em;
+}
+.sec_img{
+    width: 90%;
+}
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+.desc_tit{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--white--principal);
+    margin-bottom: 0.1em;
+}
+.desc_txt{
+    color: var(--gray-sec);
+}
+.sec_botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+.container_desc{
+    padding: 2em;
+}
+.desc_tit_sec{
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--white--principal);
+    margin-bottom: 0.1em;
+    
+}
+.disp_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.disp{
+    text-align: center;
+}
+.disp_tit{
+    font-size: 48px;
+    color: var(--white--principal);
+}
+.lista_item{
+    font-size: 32px;
+    color: var(--white--principal);
+}
+.rodape.txt{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0 5em;
+}
+.lista_link{
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+    justify-content: flex;
+}
+
